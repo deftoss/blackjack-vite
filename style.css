@@ -1,0 +1,41 @@
+html, body {
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+
+.titulo {
+  text-align: center;
+  background-color: #2F4F30;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.carta {
+  position: relative;
+  text-align: center;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas {
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.player {
+  text-align: center;
+  margin-top: 50px;
+
+}
+.computer{
+  text-align: center;
+  margin-top: 50px;
+}
